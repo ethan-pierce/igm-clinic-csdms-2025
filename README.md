@@ -14,7 +14,7 @@ Running ice dynamics models is difficult. Running ice dynamics models over geomo
 
 a. Jouvet, G., & Cordonnier, G. (2023). Ice-flow model emulator based on physics-informed deep learning. Journal of Glaciology, 69(278), 1941-1955.
 
-[jhub-link]: https://explore.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fethan-pierce%2Figm-clinic-csdms-2025%2F&urlpath=lab%2Ftree%2F%2F%3Fautodecode&branch=main
+[jhub-link]: https://explore.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fethan-pierce%2Figm-clinic-csdms-2025&urlpath=lab%2Ftree%2Figm-clinic-csdms-2025%2F%3Fautodecode&branch=main
 [badge]: https://img.shields.io/badge/Run%20on-EarthscapeHub-orange
 
 [![Run on EarthscapeHub][badge]][jhub-link]
