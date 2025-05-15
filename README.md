@@ -1,7 +1,7 @@
 # IGM clinic, CSDMS 2025
 ### *"Accelerating Glacier and Surface Processes Modeling with Machine Learning and New Python Libraries"*
 
-Irina Overeem<sup>1</sup>, Ethan Pierce<sup>2</sup>, and Billy Armstrong<sup>3</sup>
+Irina Overeem<sup>1</sup>, Ethan Pierce<sup>2</sup>, Billy Armstrong<sup>3</sup>, and Jocelyn Reahl<sup>1</sup>
 <sub>
 1. University of Colorado Boulder
 2. Dartmouth College
