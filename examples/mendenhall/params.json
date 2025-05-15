@@ -1,0 +1,33 @@
+{
+  "modules_preproc": ["oggm_shop"],
+  "modules_process": ["clim_oggm",
+                      "smb_oggm",
+                      "iceflow",
+                      "time",
+                      "thk"
+                      ],
+  "modules_postproc": ["write_ncdf",
+                       "plot2d",
+                       "print_info",
+                       "print_comp"],
+  "wncd_vars_to_save": [
+		"topg", "usurf", "thk", "smb", 
+		"velbar_mag", "velsurf_mag", 
+		"uvelsurf", "vvelsurf", "wvelsurf", 
+		"uvelbase", "vvelbase"
+			],
+  "clim_oggm_clim_trend_array": [
+                        ["time", "delta_temp", "prec_scal"],
+                        [ 2000,           0.0,         1.0],
+                        [ 2020,           0.0,         1.0]
+                                 ],
+  "oggm_RGI_ID": "RGI60-01.00709",
+  "time_start": 2000.0,
+  "time_end": 2100.0,
+  "time_save": 5,
+  "plt2d_live": true,
+  "iflo_init_slidingco": 0.000001,
+  "iflo_init_arrhenius": 75,
+  "iflo_exp_weertman": 3,
+  "oggm_RGI_version" : 6
+}
