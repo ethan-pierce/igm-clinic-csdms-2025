@@ -1,6 +1,7 @@
 {
   "modules_preproc": ["oggm_shop"],
   "modules_process": ["smb_oggm",
+		      "clim_oggm",
                       "iceflow",
                       "time",
                       "thk"
