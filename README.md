@@ -18,3 +18,22 @@ a. Jouvet, G., & Cordonnier, G. (2023). Ice-flow model emulator based on physics
 [badge]: https://img.shields.io/badge/Run%20on-EarthscapeHub-orange
 
 [![Run on EarthscapeHub][badge]][jhub-link]
+
+If you're intending to run IGM on the OpenEarthScape JupyterHub, first run the following command in a Terminal window (on the Hub):
+```
+source activate igm
+```
+It is recommended to navigate to the examples directories before running IGM, e.g.
+```
+cd examples/mendenhall
+```
+Then, you can run IGM with:
+```
+igm_run --param_file params.json
+```
+If you ever want to run an example again, just be sure to delete the ```output.nc``` file first:
+```
+rm output.nc
+```
+
+Enjoy!
